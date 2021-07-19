@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.App {
+    background: grey;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color {
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+}
+
+.textColor-blue {
+    color: blue;
+}
+.textColor-white {
+    color: white;
+}
+.textColor-red {
+    color: red;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.white {
+    background-color: white;
+}
+
+.buttons {
+    display: flex;
+}
+
+button {
+    width: 100px;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 5px;
+}
